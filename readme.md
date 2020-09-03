@@ -6,6 +6,8 @@
 
 ##### To test your bot, you'll need to be in a Discord server where it doesn't matter if you mess anything up, I've created one such discord: [Coder Dojo Brighton - Test Suite](https://discord.gg/tkKpnUJ).
 
+##### If at any point you have any questions, you can either message me on Discord (`shnopy#2525`), or you can message me on Slack. I'll try to get back to you as quickly as I can
+
 ### Things you'll find in this repo
 
 | File         | Description                                                                                           |

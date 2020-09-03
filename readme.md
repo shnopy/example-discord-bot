@@ -189,4 +189,19 @@ client.login(process.env.TOKEN);
 - This tells the client to log in with this token
   - If you now run the bot, you should see that it's online
 - Right now it won't do anything as there's nothing to handle messages, this is something we'll do next time.
+
   - (If you've managed to get here extremely quickly send me a DM on Slack and I'll talk you through making a message handler)
+
+- Once this is done, your code should look like this
+
+```js
+require("dotenv").config();
+const discord = require("discord.js");
+const client = new discord.Client();
+
+client.on("ready", () => {
+  console.log("Bot ready");
+});
+
+client.login(process.env.TOKEN);
+```

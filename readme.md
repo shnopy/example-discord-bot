@@ -6,9 +6,16 @@
 
 ##### To test your bot, you'll need to be in a Discord server where it doesn't matter if you mess anything up, I've created one such discord: [Coder Dojo Brighton - Test Suite](https://discord.gg/tkKpnUJ).
 
-##### In this Github repo there is a `.gitignore` file for if you wish to push your bot up to Github. It will ignore any files which aren't needed.
+### Things you'll find in this repo
 
-##### In this Github repo you'll find a `.env.example` file, you can use this if you're unsure on how to make your own, just remove the `.example` from the file name
+| File         | Description                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------------------- |
+| .gitignore   | Shows you what you need to ignore to push a discord bot onto github                                   |
+| .env.example | Example `.env` file, you can use this if you're having a hard time making one                         |
+| .eslintrc.js | ESlint configuration, you can use this unless you're manually configuring it                          |
+| index.js     | Example `index.js` file, you can use this to make sure you've written it correctly or to debug errors |
+
+<br />
 
 ## Getting started
 

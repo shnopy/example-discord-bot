@@ -67,12 +67,12 @@
 
 - The order isn't crucial, but it's worth doing the smaller ones first. You can install multiple packages at the same time by appending them to the end of the install command, for example: `npm i discord.js dotenv` would install the `diiscord.js` and the `dotenv` package.
 
-| Package    | Install Command  | How to import / Run                                             | Info                                            |
-| ---------- | ---------------- | --------------------------------------------------------------- | ----------------------------------------------- |
-| discord.js | npm i discord.js | `const discord = require("discord.js");`                        |
-| dotenv     | npm i dotenv     | `require("dotenv").config();`                                   |
-| nodemon    | npm i -g nodemon | From your console in the bot directory run: `nodemon`           |
-| eslint     | npm i -D eslint  | From your console in the bot directory run: `npx eslint --init` | Only do this if you're using Visual Studio Code |
+| Package    | Install Command  | How to import / Run                                                                                           | Info                                            |
+| ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| discord.js | npm i discord.js | `const discord = require("discord.js");`                                                                      |
+| dotenv     | npm i dotenv     | `require("dotenv").config();`                                                                                 |
+| nodemon    | npm i -g nodemon | From your console in the bot directory run: `nodemon`                                                         |
+| eslint     | npm i -D eslint  | From your console in the bot directory run: `npx eslint --init` (**Unless you're using the provided config)** | Only do this if you're using Visual Studio Code |
 
 <br />
 

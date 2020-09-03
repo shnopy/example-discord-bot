@@ -83,15 +83,6 @@
 - To start with we're going to have a single file handling everything, at a later stage you will have handlers for events, and files for each command.
 - The main file of any node.js/Javascript project is `index.js`, this tells the runtime where to start. This is where you will put our code
   - you will need somewhere to store out bot token \*\* **NEVER SHARE THIS TOKEN** \*\*, this can be stored in a file called `.env`, for example: `TOKEN=token-here`
-- To go with this, you'll probably want a prefix to run commands, for example: `!help` or `$help`
-  - This can be done by creating a simple `config.json` file in the same directory as your `index.js` file.
-  - JSON format is very simple to understand. For example, to add your prefix you could do:
-
-```json
-{
-  "prefix": "!"
-}
-```
 
 <br />
 
@@ -122,16 +113,11 @@
   - `const discord = require("discord.js");`
   - This imports the discord.js module, which you will use to make the bot
 
-- For the last of the imports, you will grab the `config.json`
-
-  - `const config = require("./config.json");`
-
 - Once they're imported, you should have this in your `index.js` file
 
 ```js
 require("dotenv").config();
 const discord = require("discord.js");
-const config = require("./config.json");
 ```
 
 <br />
@@ -173,7 +159,6 @@ console.log("Bot ready");
 ```js
 require("dotenv").config();
 const discord = require("discord.js");
-const config = require("./config.json");
 const client = new discord.Client();
 
 client.on("ready", () => {

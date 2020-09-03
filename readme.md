@@ -107,7 +107,7 @@
 
 ##### Imports
 
-- Now you've setup your file structure and have a simple prefix in place, we can begin to actually code!
+- Now you've setup your file structure, we can begin to actually code!
 
   - The example code is available in the repo for those who are finding it hard to follow along
 

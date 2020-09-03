@@ -109,7 +109,7 @@
 
 - Now you've setup your file structure and have a simple prefix in place, we can begin to actually code!
 
-  - The example code is avaliable in the repo for those who are finding it hard to follow along
+  - The example code is available in the repo for those who are finding it hard to follow along
 
 - To start you will need to import our settings from the `.env` file. This can be done by importing the `dotenv` module.
 

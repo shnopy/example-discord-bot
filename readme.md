@@ -72,7 +72,7 @@
 | discord.js | npm i discord.js | `const discord = require("discord.js");`                                                                      |
 | dotenv     | npm i dotenv     | `require("dotenv").config();`                                                                                 |
 | nodemon    | npm i -g nodemon | From your console in the bot directory run: `nodemon`                                                         |
-| eslint     | npm i -D eslint  | **Optional** From your console in the bot directory run: `npx eslint --init` (**Unless you're using the provided config)** | Only do this if you're using Visual Studio Code |
+| eslint     | npm i -D eslint  | From your console in the bot directory run: `npx eslint --init` (Unless you're using the provided config) | **This package is optional, it is not required for your bot to function or run ** Only do this if you're using Visual Studio Code |
 
 <br />
 
